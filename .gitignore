@@ -1,2 +1,9 @@
 # Ignore text files
 *.txt
+
+# Ignore python venv
+.venv/
+
+# Ignore IDE settings
+.idea/
+.vscode/
