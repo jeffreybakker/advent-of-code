@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = ""
+authors = ["Jeffrey Bakker <jeffrey.bakker@gmail.com>"]
+readme = "README.md"
+packages = [{include = "advent_of_code_2024"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+tqdm = "^4.67.1"
+polars = "^1.16.0"
+scipy = "^1.14.1"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+pytest = "^9.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
