@@ -34,7 +34,10 @@ print("Part A:", zeros)
 # 1150
 
 
-# Part B
+##
+# PART B
+##
+# It's not how I would have liked it, but it works...
 def apply_iterative(position: int, instruction: int) -> tuple[int, int]:
     if instruction == 0:
         return position, 0
@@ -61,6 +64,3 @@ for instruction in instructions:
     zeros += passed_through_zero
 
 print("Part B:", zeros)
-# 6835: too high
-# 6265: too low
-# 5420: too low
