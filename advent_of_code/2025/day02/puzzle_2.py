@@ -31,5 +31,5 @@ def find_invalid_ids(pattern: str) -> Iterator[int]:
                 yield nr
 
 
-print("Part A:", sum(find_invalid_ids(r"([0-9]+)\1")))
-print("Part B:", sum(find_invalid_ids(r"([0-9]+)\1+")))
+print("Part A:", sum(find_invalid_ids(r"([0-9]+)\1")))  # matches 2 groups
+print("Part B:", sum(find_invalid_ids(r"([0-9]+)\1+")))  # matches 2+ groups
