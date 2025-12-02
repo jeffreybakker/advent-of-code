@@ -31,7 +31,6 @@ for instruction in instructions:
         zeros += 1
 
 print("Part A:", zeros)
-# 1150
 
 
 ##
