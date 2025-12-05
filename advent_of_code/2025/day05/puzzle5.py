@@ -47,7 +47,7 @@ while True:
         # Take the next range (for comparison
         a, b = ranges_sorted.pop(0)
     except IndexError:
-        # We've hit the end of the list, add the current range to the total
+        # We've hit the end of the list, add the length of the current range to the total
         total += hi - lo + 1
         break
 
